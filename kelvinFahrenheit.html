@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Kelvin to Fahrenheit</title>
+  </head>
+  <body>
+    <h1 id="title">Kelvin to Fahrenheit</h1>
+    <select id="conTemp" class="tempKoF" name="tempConvertion">
+        <option value="kelvin">Kelvin</option>
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+    </select>
+    <select id="conTemp2" class="tempKoF2" name="tempConvertion2">
+        <option value="celsius">Celsius</option>
+        <option value="kelvin">Kelvin</option>
+        <option value="fahrenheit">Fahrenheit</option>
+    </select>
+    <h3>Please enter the Temperature you wish to convert and press enter.</h3>
+    <form>
+      <input type="text" id="userInput" placeholder="">
+    </form>
+    <div class="outPut">
+      <h2 id="userOutput">Calculating</h2>
+    </div>
+    <button type="button" id="convertTemp" name="button" onclick="tempConvert()">Convert</button>
+    <button id="clearAll" onclick="tempClear()">Clear All</button>
+    <p><a href="index.html">Return to the portfolio page</a></p>
+<script type="text/javascript" src="kelvinFahrenheit.js"></script>
+  </body>
+</html>
